@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  margin: 30px auto;
+  width: 1200px;
+}
+
+.nav li {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-style: normal;
+  padding: 5px;
+  margin: 25px;
+  text-align: center;
+
+  display: inline-block;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav li a:hover {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav li img {
+  height: 16px;
+  width: 23px;
+}
+
+.nav-bar ul li.active a {
+  color: #308576;
+  text-decoration: none;
+}
+
+/* START ABOUT ME */
+
+.the-best {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.the-best .info1 {
+  float: left;
+  width: 30%;
+}
+
+.the-best .info1 .left-image img {
+  float: left;
+  width: 273px;
+  padding: 20px 10px 20px 0px;
+}
+
+.the-best .info1 .left-text p {
+  float: left;
+  padding: 20px 10px 30px 40px;
+}
+
+.the-best .image {
+  width: 70%;
+  float: right;
+  padding-left: 20px;
+}
+
+.the-best .image img {
+  width: 100%;
+}
+
+.the-best .info1 .text {
+  padding: 20px 10px 30px 40px;
+}
+
+.the-best .info2 .right-text {
+  width: 70%;
+  float: right;
+  padding: 20px 10px 30px 40px;
+}
+
+.the-best .info2 .right-text button {
+  padding: 6px 302px;
+  margin: 34px 21px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* END ABOUT ME */
+
+/* START Features  */
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.features .feat {
+  float: left;
+  width: 25%;
+  height: 400px;
+  font-size: 18px;
+  font-weight: Bold;
+}
+
+.features .feat h2 {
+  font-size: 15px;
+}
+
+.features .feat img {
+  width: 80%;
+}
+
+.features .feat p {
+  padding: 5px;
+}
+/* END Features */
+
+/* Start footer */
+.footer {
+  background-color: #777;
+  color: #fff;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.footer .info {
+  float: left;
+  width: 20%;
+}
+
+.footer .info ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer .info ul li {
+  padding: 15px 0px;
+}
+
+.footer .last {
+  margin: 100px 50px;
+}
+
+.footer .last img {
+  width: 40px;
+  height: 40px;
+  margin: 12px;
+}
+
+.footer .info ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* End footer */
